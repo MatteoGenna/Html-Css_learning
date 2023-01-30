@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="index.html" method="get" id="mioForm">
+        <label for="nome">Nome:</label>
+        <input type="text" name="FirstName" id="nome"> <br>
+        <label for="cognome">Cognome:</label>
+        <input type="text" name="SecondName" id="cognome"> <br>
+        <label for="sesso">Sesso:</label>
+        <fieldset>
+            <legend>Selezionare Sesso</legend>
+            
+            <input type="radio" name="sesso" id="uomo">
+            <label for="uomo">Uomo</label>
+            
+            <input type="radio" name="sesso" id="donna">
+            <label for="donna">Donna</label>
+
+            <input type="radio" name="sesso" id="altro">
+            <label for="altro">Altro</label>
+            
+        </fieldset>
+        </select> <br>
+
+        <input type="button" value="reset">
+    </form>
+    
+    <form>
+        <input type="text" pattern="[a-z,A-Z,0-9]">
+        <input type="submit" value="submit">
+    </form>
+    
+    <label for="whatever">Selezionare Anno</label>
+    <select name="whatever" id="1">
+        <option value="one">primo</option>
+        <option value="two">secondo</option>
+        <option value="three">terzo</option>
+    </select>
+    
+
+    <br><br><br><br>
+    <a href="index.html"><button><h1>Home Page</h1></button></a><br>
+</body>
+</html>

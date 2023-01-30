@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form spedizione</title>
+</head>
+<body>
+
+    <form id="delivery" autocomplete="on">
+
+        <div>
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name" placeholder="Nome" required>
+        </div>
+
+        <div>
+            <label for="lastname">Cognome</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Cognome" required>
+        </div>
+
+        <div>
+            <label for="address">Indirizzo</label>
+            <input type="text" name="address" id="address" placeholder="Via del Corso" required>
+        </div>
+
+        <div>
+            <label for="civico">Civico</label>
+            <input type="number" name="ncivico" id="civico" placeholder="civico">
+        </div>
+
+        <div>
+            <label for="cap">Cap</label>
+            <input type="cap" name="cap" id="cap" placeholder="cap" required>
+        </div>
+        
+        <div>
+            <label for="city">Citta</label>
+            <input type="city" name="city"  id="city" placeholder="Milano" required>
+        </div>
+
+        <div>
+            <label for="country">Stato</label>
+            <input type="country" name="country" id="country" placeholder="stato" required>
+        </div>
+
+        <div>
+            <label for="provincia">Provincia</label>
+            <select name="provincia" id="provincia" required>
+                <option value="RM">Roma</option>
+                <option value="MI">Milano</option>
+                <option value="TO">Torino</option>
+                <option value="OTHER">Altro</option>
+            </select>
+        </div>
+            
+        <div>
+            <label for="telefono">Telefono</label>
+            <input type="tel" name="telefono" id="telefono" required>
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+    </form>
+
+
+
+
+    <br><br><br>
+    <a href="index.html"><button><h1>Home Page</h1></button></a><br>
+</body>
+</html>
