@@ -8,69 +8,71 @@
 </head>
 <body>
 
-    <form id="delivery" autocomplete="on">
+<form method="post" id="delivery" autocomplete="on">
 
-        <div>
-            <label for="name">Nome</label>
-            <input type="text" name="name" id="name" placeholder="Nome" required>
+    <div>
+        <div style="display: inline"><label for="name">Nome</label></div>
+        <div style="display: inline"><input type="text" name="name" id="name" placeholder="Nome" required></div>
+    </div>
+
+    <div>
+        <div style="display: inline"><label for="lastname">Cognome</label></div>
+            <div style="display: inline"><input type="text" name="lastname" id="lastname" placeholder="Cognome"  required></div>
         </div>
 
         <div>
-            <label for="lastname">Cognome</label>
-            <input type="text" name="lastname" id="lastname" placeholder="Cognome" required>
+            <div style="display: inline"><label for="address">Indirizzo</label></div>
+            <div style="display: inline"><input type="text" name="address" id="address" placeholder="Via del Corso"
+                                                required></div>
         </div>
 
         <div>
-            <label for="address">Indirizzo</label>
-            <input type="text" name="address" id="address" placeholder="Via del Corso" required>
+            <div style="display: inline"><label for="civico">Civico</label></div>
+            <div style="display: inline"><input type="number" name="ncivico" id="civico" placeholder="civico"></div>
         </div>
 
         <div>
-            <label for="civico">Civico</label>
-            <input type="number" name="ncivico" id="civico" placeholder="civico">
+            <div style="display: inline"><label for="cap">Cap</label></div>
+            <div style="display: inline"><input type="cap" name="cap" id="cap" placeholder="cap" required></div>
         </div>
 
         <div>
-            <label for="cap">Cap</label>
-            <input type="cap" name="cap" id="cap" placeholder="cap" required>
-        </div>
-        
-        <div>
-            <label for="city">Citta</label>
-            <input type="city" name="city"  id="city" placeholder="Milano" required>
+            <div style="display: inline"><label for="city">Citta</label></div>
+            <div style="display: inline"><input type="city" name="city" id="city" placeholder="Milano" required></div>
         </div>
 
         <div>
-            <label for="country">Stato</label>
-            <input type="country" name="country" id="country" placeholder="stato" required>
+            <div style="display: inline"><label for="country">Stato</label></div>
+            <div style="display: inline"><input type="country" name="country" id="country" placeholder="stato" required>
+            </div>
         </div>
 
         <div>
-            <label for="provincia">Provincia</label>
-            <select name="provincia" id="provincia" required>
+            <div style="display: inline"><label for="provincia">Provincia</label></div>
+            <div style="display: inline"><select name="provincia" id="provincia" required>
                 <option value="RM">Roma</option>
                 <option value="MI">Milano</option>
                 <option value="TO">Torino</option>
                 <option value="OTHER">Altro</option>
-            </select>
-        </div>
-            
-        <div>
-            <label for="telefono">Telefono</label>
-            <input type="tel" name="telefono" id="telefono" required>
+            </select></div>
         </div>
 
         <div>
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" required>
+            <div style="display: inline"><label for="telefono">Telefono</label></div>
+            <div style="display: inline"><input type="tel" name="telefono" id="telefono" required></div>
         </div>
 
-    </form>
+        <div>
+            <div style="display: inline"><label for="email">Email</label></div>
+            <div style="display: inline"><input type="email" name="email" id="email" required></div>
+        </div>
+
+</form>
 
 
-
-
-    <br><br><br>
-    <a href="index.html"><button><h1>Home Page</h1></button></a><br>
+<br><br><br>
+<a href="index.html">
+    <button><h1>Home Page</h1></button>
+</a><br>
 </body>
 </html>
