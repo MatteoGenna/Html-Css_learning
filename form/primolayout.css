@@ -1,0 +1,15 @@
+.container{
+    font-size: 22px;
+}
+
+.element{
+    background-color: red;
+    width: 50%;
+    height: 25px;
+    box-sizing: border-box;
+    border: 0.1em solid black;
+    float: left;
+    border-collapse: collapse;
+}
+
+
